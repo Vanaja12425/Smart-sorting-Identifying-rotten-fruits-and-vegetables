@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:black;
+            padding-left:60px;
+            font-size: 30px;
+        }
+        nav>ol{
+            font-size: 30px;
+            padding-left: 1000px;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            list-style: none;
+            flex-wrap: wrap;  
+            font-weight: bold;
+            font-style: italic;
+            background-color:black;
+        }nav>ol>li>a{
+            text-decoration: none;
+            color:white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        h2{
+            padding-top: 100px;
+            color:black;
+            text-align: center;
+            font-size: 40px;
+        }
+        label{
+            padding-top: 60px;
+            font-size: 25px;
+            margin-left: 100px;
+            margin-inline-start: 400px;
+        }
+        input{
+            margin-left: 20px;
+            margin-inline-start: 20px;
+            font-size: 20px;
+            border: 2px solid rgb(174, 203, 228);
+            width:50% ;  
+         }
+        button{
+            font-size: 20px;
+            text-align: center;
+            padding:15px;
+            align-items: center;
+            color:white;
+            background-color:rgb(37, 164, 37);
+            margin-inline-start: 800px;
+            width:150px;
+            cursor: pointer;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h1>NUTRIGAZE</h1>
+    <nav>
+    <ol>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">predict</a></li>
+        <li><a href="">contact</a></li>
+    </ol>
+    </nav>
+    <h2>Image Classfication</h2>
+    <label for="name">Update Your Image:</label>
+    <input type="file" id="name" placeholder="Choose File"/><br></br>
+    <button>predict</button>
+</body>
+</html>
